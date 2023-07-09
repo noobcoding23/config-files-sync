@@ -13,11 +13,11 @@ sudo apt install zsh
 sudo dnf install zsh
 ```
 
-### 3. Change the shell
+### 3. Change the default from `bash` to `zsh` shell
 
 Enter this `chsh` and after this `/bin/zsh` into your terminal
 
-#### ***For as root use `sudo` command
+For changing the root shell as well as use `sudo` command before `chsh`
 
 ### 4. Install oh-my-zsh
 ```
