@@ -40,12 +40,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/cust
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-hightlighting/zsh-synstax-hightlighting.zsh
 ```
 
-### 7. Add these lines to your `.zshrc`
-```
-plugins=(zsh-syntax-highlighting)
-plugins=(zsh-autosuggestions)
+### 7. Add this repository in your home directory in `.dotfiles` folder
 
-source $ZSH/oh-my-zsh.sh
-source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $ZSH/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+```
+git clone https://github.com/noobcoding23/config-files-sync.git ~/.dotfiles
 ```
