@@ -14,14 +14,10 @@ sudo dnf install zsh
 ```
 
 ### 3. Change the shell
-```
-chsh
-```
-and
-```
-/bin/zsh
-```
-#### ***For root use `sudo`
+
+Enter this `chsh` and after this `/bin/zsh` into your terminal
+
+#### ***For as root use `sudo` command
 
 ### 4. Install oh-my-zsh
 ```
