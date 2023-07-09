@@ -41,3 +41,5 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 ```
 git clone https://github.com/noobcoding23/config-files-sync.git ~/.dotfiles
 ```
+
+### 8. Use the repository files with symlink
