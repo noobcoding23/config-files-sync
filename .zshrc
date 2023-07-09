@@ -72,6 +72,7 @@ ZSH_THEME="spaceship"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 plugins=(zsh-syntax-highlighting)
+plugins=(zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
