@@ -4,27 +4,41 @@ Configuration files backup
 ### 1. Install zsh
 
 #### a. For ubuntu
-`sudo apt install zsh`
+```
+sudo apt install zsh
+```
 
 #### b. For Fedora
-`sudo dnf install zsh`
+```
+sudo dnf install zsh
+```
 
 ### 3. Change the shell
-`chsh`
-
-`/bin/zsh`
+```
+chsh
+```
+and
+```
+/bin/zsh
+```
 #### ***For root use `sudo`
 
 ### 4. Install oh-my-zsh
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 ### 5. Install zsh-autosuggestions
 
-`git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions)`
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions)
+```
 
 ### 6. Install zsh-syntax-highlighting
 
-`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-hightlighting/zsh-synstax-hightlighting.zsh`
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-hightlighting/zsh-synstax-hightlighting.zsh
+```
 
 ### 7. Add these lines to your `.zshrc`
 ```
